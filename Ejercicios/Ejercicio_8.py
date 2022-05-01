@@ -11,8 +11,9 @@ for x in range(0, numNombres):
     nombres.append(input("Escribe un nombre: ").capitalize())
 
 #Ingreso de la letra a buscar mediante teclado.
-letra_buscada = input("¿Que letra buscas?: ")
+letra_buscada = input("¿Que letra buscas?: ").capitalize()
 cantidad = 0
+
 
 #Ciclo que permite mediante condicionales calcular la cantidad de nombres en la lista que inician con 
 #la letra indicada por el usuario.
