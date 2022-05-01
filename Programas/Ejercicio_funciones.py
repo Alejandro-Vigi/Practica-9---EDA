@@ -24,33 +24,42 @@
 
 import xdrlib
 
-
-str1 = "hola mundo" #Inicia la primera letra en mayusculas
+str1 = "hola mundo"
 print(str.capitalize(str1))
+#Devuelve la cadena con la primera letra en mayusculas.
 
-str2 = "Cadena contada" #Retorna true si todos los caracteres son decimales
+str2 = "Cadena contada" 
 print(str.isdecimal(str2))
+#Devuelve un booleano si todos los caracteres son decimales y hay al menos un caracter.
 
-str3 = "41325" #Retorna true si toda la cadena es de digitos
+str3 = "41325"
 print(str.isdigit(str3))
+#Retorna un booleano verificando si toda la cadena es de digitos.
 
-str4 = "cadenaenminuscula" #Retorna true si la cadena esta en minusculas
+str4 = "cadenaenminuscula"
 print(str.islower(str4))
+#Retorna un booleano verificando si toda la cadena esta en minusculas.
 
-str5 = "     " #Retorna true solo si la cadena es de puros espacios
+str5 = "     "
 print(str.isspace(str5))
+#Retorna un booleano verificando si la cadena solo contiene espacios.
 
-str6 = "CADENAENMAYUSCULAS" #Retorna true si la cadena esta en mayusculas
+str6 = "CADENAENMAYUSCULAS"
 print(str.isupper(str6))
+#Retorna un booleano verificando si toda la cadena esta en mayusculas.
 
-str7 = "Cadena convertida A MINUSCULAS" #Retorna la cadena en minusculas
+str7 = "Cadena convertida A MINUSCULAS"
 print(str.lower(str7))
+#Retorna la cadena en minusculas.
 
-str8 = "cadena convertida a mayusculas" #Retorna la cadena en mayusculas
+str8 = "cadena convertida a mayusculas"
 print(str.upper(str8))
+#Retorna la cadena en mayusculas.
 
-str9 = "hola mundo" #Convierte la cadena como tipo titulo
+str9 = "hola mundo"
 print(str.title(str9))
+#Convierte la cadena como tipo titulo
 
-str10 = "CADENA Minusculas como la LETRA EN alemán ß" #Retorna la cadena en minusculas pero de una manera mas agresiva
+str10 = "CADENA Minusculas como la LETRA EN alemán ß"
 print(str.casefold(str10))
+#Retorna la cadena en minusculas pero de una manera mas agresiva
